@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FCF8F8;
+}
+header{
+    width: 100% ;
+    height: 50px;
+    background-color: #5FBB91 ;
+}
+.content{
+    margin: 0 auto;
+    width: 80%;
+    height: 100px ;
+}
+.content > p {
+    font-size: 25px;
+    color: #fff;
+    padding-top: 10px;
+}
+
+article{
+    padding-top: 15px; 
+}
+
+#cartao{
+    border: 1px solid #E8E7E7;
+    display: flex;
+    margin-top: 10px;
+}
+#conteudoCartao{
+    flex-grow: 10 ;
+}
+#linkDown{
+    background-color: #F4F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1
+    flex-basis: 300px;
+}
+.titulo{
+    padding: 5px;
+}
+.titulo > p{
+    color: #4678B6 ;
+    font-size: 19px;
+}
+.topicosVersao{
+    padding: 5px;
+}
+.topicosVersao > p {
+    font-size: 16px;
+    color: #181F57;
+}
+
+
+
+
+
+
+
+
+
+
