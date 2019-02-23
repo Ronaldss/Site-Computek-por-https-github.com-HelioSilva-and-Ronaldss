@@ -5,7 +5,7 @@
 
 body{
     *background-color: #FCF8F8;
-    background-color:#fff;
+    background:#fff url('**../img/bg.png') repeat; 
     font-size:1em;
     font-family:"Trebuchet MS", Helvetica, sans-serif;  
 }
@@ -15,6 +15,7 @@ header{
     *background-color: #5FBB91;
     background-color:red;
     border: 5px groove #ccc;
+    position:fixed;
 }
 .content{
     margin: 0 auto;
@@ -63,7 +64,7 @@ article{
     *border: 1px solid green;
 }
 .topicosVersao > p {
-    font-size: 16px;
+    font-size:0.9em;
     color: #181F57;
 }
 
@@ -96,6 +97,22 @@ section a:hover{
     font-size:10px;
     color:#ccc;
 }
+.espacoFinal{
+    padding-bottom:60px;
+}
+#rodape{
+    background: red;
+    text-align:center;
+    width:100%;
+    padding:15px;
+    position:absolute;
+    bottom:-150px;
+}
+#rodape img{
+    width:100px;
+    border-radius:5px;
+}
+
 
 
 
