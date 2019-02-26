@@ -4,13 +4,13 @@
 }
 
 body{
-    *background-color: #FCF8F8;
+    *background-color: red;
     background:#fff url('**../img/bg.png') repeat; 
     font-size:1em;
     font-family:"Trebuchet MS", Helvetica, sans-serif;  
 }
 header{
-    width: 100%;
+    width:100%;
     height: 50px;
     *background-color: #5FBB91;
     background-color:red;
