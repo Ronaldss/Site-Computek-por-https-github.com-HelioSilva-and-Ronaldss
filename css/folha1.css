@@ -4,13 +4,13 @@
 }
 
 body{
-    *background-color: red;
+    *background-color: #FCF8F8;
     background:#fff url('**../img/bg.png') repeat; 
     font-size:1em;
     font-family:"Trebuchet MS", Helvetica, sans-serif;  
 }
 header{
-    width:100%;
+    width: 100%;
     height: 50px;
     *background-color: #5FBB91;
     background-color:red;
@@ -20,7 +20,7 @@ header{
 .content{
     margin: 0 auto;
     width: 80%;                     /* Alinhamento central de todo o corpo */
-    height: 100px ;
+    height: 100px ; 
     *border: 1px solid rgb(252, 236, 14);
 }
 .content > p {
@@ -88,9 +88,10 @@ h2{
 }
 .branco{
     color:#fff;
+    text-shadow: 2px 2px black; 
 }
 section a:hover{
-    background-color:tomato;
+    background-color:#ccc;
     border-radius: 4px;
 } 
 .liberadaEm{
@@ -101,12 +102,13 @@ section a:hover{
     padding-bottom:60px;
 }
 #rodape{
-    background: red;
+    /* background: red;
     text-align:center;
     width:100%;
     padding:15px;
-    position:absolute;
-    bottom:-150px;
+
+    position:fixed;
+    bottom:0; */
 }
 #rodape img{
     width:100px;
