@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    *background-color: #FCF8F8;
+    background:#fff url('**../img/bg.png') repeat; 
+    font-size:1em;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;  
+}
+header{
+    width: 100%;
+    height: 50px;
+    *background-color: #5FBB91;
+    background-color:red;
+    border: 5px groove #ccc;
+    position:fixed;
+}
+.content{
+    margin: 0 auto;
+    width: 80%;                     /* Alinhamento central de todo o corpo */
+    height: 100px ; 
+    *border: 1px solid rgb(252, 236, 14);
+}
+.content > p {
+    font-size: 25px;
+    color: #fff;
+    padding-top: 10px;
+}
+
+article{
+    padding-top: 15px; 
+}
+
+#cartao{
+    border: 1px solid #E8E7E7;
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+#conteudoCartao{
+    flex-grow: 10;
+    background:#f8f8f8;
+}
+#linkDown{
+    background-color: #F4F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    *flex-grow: 1;
+    *flex-basis: 300px;
+}
+.titulo{
+    padding: 0px;
+    *border: 1px solid green;
+}
+.titulo > p{
+    color: #4678B6 ;
+    font-size: 19px;
+}
+.topicosVersao{
+    padding: 5px;
+    *border: 1px solid green;
+}
+.topicosVersao > p {
+    font-size:0.9em;
+    color: #181F57;
+}
+
+
+/*---------------Atualizações-------------------*/
+
+h1{
+    margin:0;
+    padding:0;
+    color:#000;
+    *color:#4e4e4e;
+    *height:50px;
+    *text-align: center;
+    line-height:50px;
+    *border: 1px solid red;
+}
+h2{
+    color: #4678B6 ;
+    font-size: 19px;
+    *border:1px solid red;
+}
+.branco{
+    color:#fff;
+    text-shadow: 2px 2px black; 
+}
+section a:hover{
+    background-color:#ccc;
+    border-radius: 4px;
+} 
+.liberadaEm{
+    font-size:10px;
+    color:#ccc;
+}
+.espacoFinal{
+    padding-bottom:60px;
+}
+#rodape{
+    /* background: red;
+    text-align:center;
+    width:100%;
+    padding:15px;
+
+    position:fixed;
+    bottom:0; */
+}
+#rodape img{
+    width:100px;
+    border-radius:5px;
+}
+
+
+
+
+
+
+
+
+

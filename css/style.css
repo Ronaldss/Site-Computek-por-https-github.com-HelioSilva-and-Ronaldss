@@ -1,0 +1,157 @@
+/* Site ComputekPDV - Ronald*/
+*{
+    margin:0;
+    padding:0;
+    font-size:1em;
+}
+h1{
+    margin:0;
+    margin-left:10px;
+    padding:0;
+    color:#000;
+    line-height:50px;  
+    cursor:no-drop;
+}
+h2{
+    color: #4678B6 ;
+    font-size: 19px;
+}
+
+/*--------------------topo-------------------------*/
+#topo{
+    margin:0 auto;
+    padding:3px;
+    height:50px;
+    *background:red;
+    font-size:2em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position:relative;
+    transition: 0.2s;
+
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff3019+0,cf0404+100;Red+3D */
+    background: #ff3019; /* Old browsers */
+    background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ff3019 0%,#cf0404 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ff3019 0%,#cf0404 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 ); /* IE6-9 */
+}
+#topo a{
+    text-decoration:none;
+    margin-right:10px;
+    margin-bottom:10px;
+}
+#topo a:link,
+#topo a:visited{
+    color:white;
+}
+#topo a:hover,
+#topo a:active{
+    color:black;
+}
+
+
+
+
+/*-------------------área central--------------------*/
+#area-principal{
+    width:100%;
+    max-width:950px;
+	margin:0 auto;
+    padding:15px;
+    background-color:white;
+}
+
+
+/*-------------------Área dos cartões-------------------*/
+#linkDown{
+    background-color: #F4F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    padding: 0px;
+}
+.liberadaEm{
+    font-size:10px;
+    color:#ccc;
+}
+#cartao{
+    border: 1px solid #E8E7E7;
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+#conteudoCartao{
+    flex-grow: 10;
+    background:#f8f8f8;
+}
+.topicosVersao{
+    padding: 5px;
+}
+.topicosVersao p{
+    font-size:0.9em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*--------------------área do footer--------------------*/
+
+#rodape{
+    *background-color:#cecece;
+    text-align:left;
+    font-size:0.7em;
+    margin:0;
+    padding:5px;
+    padding-right:10px;
+    color:white;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff3019+0,cf0404+100;Red+3D */
+    background: #ff3019; /* Old browsers */
+    background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ff3019 0%,#cf0404 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ff3019 0%,#cf0404 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+
+
+
+
+/*-----------------muito usadas-------------------*/
+.white{
+    color:white;
+    text-shadow: 2px 2px black;
+}
+.esquerda{
+    float:left;
+}
+.direita{
+    float:right;
+}
+.site{
+    float:left;
+    color:white;
+    font-size:0.7em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	bottom:5px;
+    right:10px; 
+    position:absolute;
+}
+
+/*------------------------------------------------*/
+@media only screen and (max-width:580px){
+    #topo{
+        height:75px;
+        text-align:center; 
+    }
+    h1{
+        margin:0;
+    }
+    #topo a{
+        margin-right:100px;
+        *border: 1px solid white;
+    }
+}
