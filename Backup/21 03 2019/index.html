@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html lang="br" xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <meta charset=UTF8>
-        <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
-        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-        <link rel="stylesheet" href="css/style.css">
-        <title>ComputekPDV - Download</title>
-        <script language="JavaScript" type="text/javascript">//animação do topo em JS
-=======
 <!DOCTYPE html>
 <html lang="br">
     <head>
@@ -17,7 +6,6 @@
         <link rel="stylesheet" href="css/style.css">
         <title>ComputekPDV - Download</title>
         <script>//animação do topo em JS
->>>>>>> 2f2feb315ccfab504a527a0caa81d89371ad3698
                 window.onscroll = function() {scrollFunction()};
                 function scrollFunction() {
                  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
@@ -26,30 +14,6 @@
                    document.getElementById("topo").style.fontSize = "2em";
                  }
                }
-<<<<<<< HEAD
-        /*-------------------------------------------------------------------------------------------------------*/
-               function defasada(){
-                    alert("Esta build está defasada! Já existe uma build mais recente disponível.");
-               }
-=======
-               /*
-               function defasada(){
-                    alert("Esta build está defasada! Já existe uma build mais recente disponível.");
-               }
-               */
-               function defasada(){
-                    var msg=confirm("Esta build está defasada! Deseja continuar?.");
-                    var x;
-                    if (msg==true){
-                        x="O desenvolvedor sera notificado!";
-                    }
-                    else{
-                        // x="A pagina sera reiniciada.";
-                        window.location.reload();
-                    }
-                document.getElementById("demo").innerHTML=x;    
-               }
->>>>>>> 2f2feb315ccfab504a527a0caa81d89371ad3698
 
                function touchDown1(){ // 1
                 document.getElementById("imgDown1").src = "img/d1.gif";
@@ -71,47 +35,14 @@
                 document.getElementById("imgDown5").src = "img/d1.gif";
                 document.getElementById("linkDown5").style.background="white";
                }
-<<<<<<< HEAD
-        /*-------------------------------------------------------------------------------------------------------*/
-                /*MSG no mouse*/
-                if (document.all){}
-                else document.captureEvents(Event.MOUSEMOVE);
-                document.onmousemove=mouse;
-                function mouse(e)
-                {
-                if (navigator.appName == 'Netscape'){
-                    xcurs = e.pageX;
-                    ycurs = e.pageY;
-
-                } else {
-                    xcurs = event.clientX;
-                    ycurs = event.clientY;
-
-                }
-                document.getElementById('position').style.left = (xcurs+10)+'px';
-                document.getElementById('position').style.top = (ycurs+30)+'px';
-                }
-
-
-        </script>
-    </head>
-    <body style="background-image: url('img/grid.png');" onload="mouse();">
-        <div id="position">Ronald</div>
-        <header>
-=======
         </script>
     </head>
     <body style="background-image: url('img/grid.png');">
         <head>
->>>>>>> 2f2feb315ccfab504a527a0caa81d89371ad3698
             <div id="topo">
                 <h1 class="">Computek<span class="white">PDV</span></h1>
                 <a class="site" href="http://computeksolucoes.com.br/" alt="">computeksolucoes.com.br</a>
             </div>
-<<<<<<< HEAD
-=======
-            <p id="demo"></p>
->>>>>>> 2f2feb315ccfab504a527a0caa81d89371ad3698
         </header>
 
 
@@ -162,7 +93,7 @@
                 </div>
                 <div id="linkDown2">
                     <a href="https://heliosilva.000webhostapp.com/instalador ComputekPDV 1 0 0 11.zip" title="">
-                        <img id="imgDown2" src="img/down.png" width="90px" alt="" onclick="touchDown2(),defasada()">	
+                        <img id="imgDown2" src="img/down.png" width="90px" alt="" onclick="touchDown2();">	
                     </a>                	
                 </div>
             </section>
@@ -181,7 +112,7 @@
                 </div>
                 <div id="linkDown3">
                     <a href="https://heliosilva.000webhostapp.com/instalador ComputekPDV 1 0 0 10.zip" title="">
-                        <img id="imgDown3" src="img/down.png" width="90px" alt="" onclick="touchDown3(),defasada();">	
+                        <img id="imgDown3" src="img/down.png" width="90px" alt="" onclick="touchDown3();">	
                     </a>                	
                 </div>
             </section>
@@ -203,7 +134,7 @@
                 </div>
                 <div id="linkDown4">
                     <a href="https://heliosilva.000webhostapp.com/instalador ComputekPDV 1 0 0 9.zip" title="">
-                        <img id="imgDown4" src="img/down.png" width="90px" alt="" onclick="touchDown4(),defasada();">	
+                        <img id="imgDown4" src="img/down.png" width="90px" alt="" onclick="touchDown4();">	
                     </a>                	
                 </div>
             </section>

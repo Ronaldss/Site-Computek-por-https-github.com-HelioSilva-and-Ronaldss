@@ -4,9 +4,6 @@
     padding:0;
     font-size:1em;
 }
-body{
-    background-image: url("img/grid.png");
-}
 h1{
     margin:0;
     margin-left:10px;
@@ -66,38 +63,13 @@ h2{
 }
 
 
-/*-------------------Área dos cartões-(MODIFICAR ESTA PARTE)------------------*/
-#linkDown1{
-    background-color:#F4F2F2;
+/*-------------------Área dos cartões-------------------*/
+#linkDown{
+    background-color: #F4F2F2;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#linkDown2{
-    background-color:#F4F2F2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#linkDown3{
-    background-color:#F4F2F2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#linkDown4{
-    background-color:#F4F2F2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#linkDown5{
-    background-color:#F4F2F2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-/*-------------------------------------------------------------------------------*/
 .titulo{
     padding: 0px;
 }
@@ -182,25 +154,4 @@ h2{
         margin-right:100px;
         *border: 1px solid white;
     }
-<<<<<<< HEAD
 }
-
-/*-------------------MSG no mouse---------------------------------*/
-
-<!--
-
-#position {
-
-background-color: #ccc1cc;
-color:black;
-border-radius:5px;
-font-size:0.7em;
-padding:1px;
-position: absolute;
-
-}
-
--->
-=======
-}
->>>>>>> 2f2feb315ccfab504a527a0caa81d89371ad3698
