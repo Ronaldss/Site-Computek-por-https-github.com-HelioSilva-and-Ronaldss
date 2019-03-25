@@ -14,23 +14,6 @@
                    document.getElementById("topo").style.fontSize = "2em";
                  }
                }
-               /*
-               function defasada(){
-                    alert("Esta build está defasada! Já existe uma build mais recente disponível.");
-               }
-               */
-               function defasada(){
-                    var msg=confirm("Esta build está defasada! Deseja continuar?.");
-                    var x;
-                    if (msg==true){
-                        x="O desenvolvedor sera notificado!";
-                    }
-                    else{
-                        // x="A pagina sera reiniciada.";
-                        window.location.reload();
-                    }
-                document.getElementById("demo").innerHTML=x;    
-               }
 
                function touchDown1(){ // 1
                 document.getElementById("imgDown1").src = "img/d1.gif";
@@ -60,7 +43,6 @@
                 <h1 class="">Computek<span class="white">PDV</span></h1>
                 <a class="site" href="http://computeksolucoes.com.br/" alt="">computeksolucoes.com.br</a>
             </div>
-            <p id="demo"></p>
         </header>
 
 
@@ -111,7 +93,7 @@
                 </div>
                 <div id="linkDown2">
                     <a href="https://heliosilva.000webhostapp.com/instalador ComputekPDV 1 0 0 11.zip" title="">
-                        <img id="imgDown2" src="img/down.png" width="90px" alt="" onclick="touchDown2(),defasada()">	
+                        <img id="imgDown2" src="img/down.png" width="90px" alt="" onclick="touchDown2();">	
                     </a>                	
                 </div>
             </section>
@@ -130,7 +112,7 @@
                 </div>
                 <div id="linkDown3">
                     <a href="https://heliosilva.000webhostapp.com/instalador ComputekPDV 1 0 0 10.zip" title="">
-                        <img id="imgDown3" src="img/down.png" width="90px" alt="" onclick="touchDown3(),defasada();">	
+                        <img id="imgDown3" src="img/down.png" width="90px" alt="" onclick="touchDown3();">	
                     </a>                	
                 </div>
             </section>
@@ -152,7 +134,7 @@
                 </div>
                 <div id="linkDown4">
                     <a href="https://heliosilva.000webhostapp.com/instalador ComputekPDV 1 0 0 9.zip" title="">
-                        <img id="imgDown4" src="img/down.png" width="90px" alt="" onclick="touchDown4(),defasada();">	
+                        <img id="imgDown4" src="img/down.png" width="90px" alt="" onclick="touchDown4();">	
                     </a>                	
                 </div>
             </section>
